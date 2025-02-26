@@ -1,0 +1,104 @@
+/* - cookie choices*/
+.cookie-choices-info {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    bottom: 0 !important;
+    top: auto !important;
+    z-index: 100000 !important;
+}
+
+/* - cookie choices */
+.cookie-choices-info .cookie-choices-text {
+    color: #000000 !important;
+    font-size: 12px !important;
+    line-height: 1.2em !important;
+    font-family: Poppins, sans-serif !important;
+}
+
+.cookie-choices-info .cookie-choices-button {
+    font-weight: 400 !important;
+    font-family: Poppins, sans-serif !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+    color: #000000 !important;
+    background-color: #fffffa !important;
+    padding: 5px 10px !important;
+    border-radius: 500px !important
+}
+/* - neumorphic background */
+.neumorphic-background {
+    background-color: #fff; /* Cor de fundo suave */  
+    height: 40px; /* Altura fixa de 40px */
+    width: 100%; /* Largura responsiva */
+    border-radius: 20px; /* Bordas arredondadas para o efeito */
+    box-shadow: 
+        8px 8px 15px rgba(0, 0, 0, 0.2), /* Sombra para o lado direito e embaixo */
+        -8px -8px 15px rgba(255, 255, 255, 0.0); /* Sombra para o lado esquerdo e em cima */
+    display: flex; /* Usando flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinhando verticalmente ao centro */
+    justify-content: center; /* Alinhando horizontalmente ao centro */
+    padding: 10px; /* Um pouco de padding interno */
+    margin: 10px; /* Margem para afastar do topo e das laterais */
+}
+/* - text pIndent */
+ .pIndent{
+   text-indent:3.2rem
+}
+/* - logo Blogger */
+.logo {
+    display: flex; /* Usamos flexbox para alinhar o ícone e o texto */
+    align-items: center!important; /* Alinha verticalmente o ícone e o texto */
+    background-color: #ffffff; /* Cor de fundo do logotipo */
+    padding: 15px 25px; /* Espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas para dar um efeito suave */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); /* Sombra externa inferior direita */
+                -8px -8px 15px rgba(0, 0, 0, 0.2); /* Sombra externa superior esquerda */
+    transition: transform 0.3s; /* Efeito de transição suave */
+}
+
+.logo:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o logótipo ao passar o mouse */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), /* Sombra mais suave ao passar o mouse */
+                -4px -4px 10px rgba(0, 0, 0, 0); /* Sombra mais suave ao passar o mouse */
+}
+
+.logo-icon {
+    width: 20px; /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    margin-right: 10px; /* Espaçamento entre ícone e texto */
+}
+
+.logo-text {
+    font-size: 14px; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .logo {
+        padding: 10px 15px; /* Ajusta o padding em telas menores */
+    }
+    
+    .logo-text {
+        font-size: 12px; /* Tamanho do texto reduzido em telas menores */
+    }
+
+    .logo-icon {
+        width: 25px; /* Ícone menor em telas menores */
+        height: 25px; /* Ícone menor em telas menores */
+}
+/* - lg */
+.neumorphic-background {
+    background-color: #e0e0e0; /* Cor de fundo suave */
+    height: 40px; /* Altura fixa de 40px */
+    width: 100%; /* Largura responsiva */
+    border-radius: 20px; /* Bordas arredondadas para o efeito */
+    box-shadow: 
+        8px 8px 15px rgba(0, 0, 0, 0.2), /* Sombra para o lado direito e embaixo */
+        -8px -8px 15px rgba(255, 255, 255, 0.7); /* Sombra para o lado esquerdo e em cima */
+    display: flex; /* Usando flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinhando verticalmente ao centro */
+    justify-content: center; /* Alinhando horizontalmente ao centro */
+    padding: 10px; /* Um pouco de padding interno */
+    margin: 10px; /* Margem para afastar do topo e das laterais */
+}
