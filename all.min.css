@@ -27,17 +27,18 @@
 /* - neumorphic background */
 .neumorphic-background {
     background-color: #fff; /* Cor de fundo suave */
-    height: 40px; /* Altura fixa de 40px para telas maiores */
+    height: 40px; /* Altura padrão para telas maiores */
     width: 100%; /* Largura responsiva */
-    border-radius: 20px; /* Bordas arredondadas para o efeito */
+    max-width: 600px; /* Largura máxima para evitar que o elemento fique muito largo em telas grandes */
+    border-radius: 20px; /* Bordas arredondadas */
     box-shadow: 
-        8px 8px 15px rgba(0, 0, 0, 0.2), /* Sombra para o lado direito e embaixo */
-        -8px -8px 15px rgba(255, 255, 255, 0.9); /* Sombra para o lado esquerdo e em cima */
+        8px 8px 15px rgba(0, 0, 0, 0.0); /* Sombra para o lado direito e embaixo */
+        -8px -8px 15px rgba(0, 0, 0, 0.0); /* Sombra para o lado esquerdo e em cima */
     display: flex; /* Usando flexbox para centralizar o conteúdo */
     align-items: center; /* Alinhando verticalmente ao centro */
     justify-content: center; /* Alinhando horizontalmente ao centro */
-    padding: 10px; /* Um pouco de padding interno */
-    margin: 10px; /* Margem para afastar do topo e das laterais */
+    padding: 10px; /* Padding interno */
+    margin: 10px auto; /* Margem para afastar do topo e centralizar horizontalmente */
 }
 
 /* Ajustes responsivos para dispositivos móveis */
@@ -45,7 +46,7 @@
     .neumorphic-background {
         height: 35px; /* Reduz a altura para telas menores */
         padding: 8px; /* Ajusta o padding */
-        margin: 8px; /* Ajusta a margem */
+        margin: 8px auto; /* Ajusta a margem e centraliza */
     }
 }
 
@@ -53,7 +54,7 @@
     .neumorphic-background {
         height: 30px; /* Reduz ainda mais a altura para smartphones */
         padding: 6px; /* Reduz o padding */
-        margin: 5px; /* Reduz a margem */
+        margin: 5px auto; /* Reduz a margem e centraliza */
     }
 }
 /* - text pIndent */
